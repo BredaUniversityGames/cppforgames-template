@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "graphics", "graphics\graphics.vcxproj", "{B5D1F438-B4BC-4455-BDC9-75E035C86F88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{93049485-A056-4F0D-9ABF-4FB375044293} = {93049485-A056-4F0D-9ABF-4FB375044293}
+		{A0BF85A4-F4C9-4964-BE88-A35D7EAD016F} = {A0BF85A4-F4C9-4964-BE88-A35D7EAD016F}
+		{A91FBBAC-633F-48BB-9DCA-B04CA448038E} = {A91FBBAC-633F-48BB-9DCA-B04CA448038E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "math", "math\math.vcxproj", "{A0BF85A4-F4C9-4964-BE88-A35D7EAD016F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glad", "externals\glad\glad.vcxproj", "{A91FBBAC-633F-48BB-9DCA-B04CA448038E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fmt", "externals\fmt-10.1.0\fmt.vcxproj", "{93049485-A056-4F0D-9ABF-4FB375044293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D1F438-B4BC-4455-BDC9-75E035C86F88}.Debug|x64.ActiveCfg = Debug|x64
+		{B5D1F438-B4BC-4455-BDC9-75E035C86F88}.Debug|x64.Build.0 = Debug|x64
+		{B5D1F438-B4BC-4455-BDC9-75E035C86F88}.Release|x64.ActiveCfg = Release|x64
+		{B5D1F438-B4BC-4455-BDC9-75E035C86F88}.Release|x64.Build.0 = Release|x64
+		{A0BF85A4-F4C9-4964-BE88-A35D7EAD016F}.Debug|x64.ActiveCfg = Debug|x64
+		{A0BF85A4-F4C9-4964-BE88-A35D7EAD016F}.Debug|x64.Build.0 = Debug|x64
+		{A0BF85A4-F4C9-4964-BE88-A35D7EAD016F}.Release|x64.ActiveCfg = Release|x64
+		{A0BF85A4-F4C9-4964-BE88-A35D7EAD016F}.Release|x64.Build.0 = Release|x64
+		{A91FBBAC-633F-48BB-9DCA-B04CA448038E}.Debug|x64.ActiveCfg = Debug|x64
+		{A91FBBAC-633F-48BB-9DCA-B04CA448038E}.Debug|x64.Build.0 = Debug|x64
+		{A91FBBAC-633F-48BB-9DCA-B04CA448038E}.Release|x64.ActiveCfg = Release|x64
+		{A91FBBAC-633F-48BB-9DCA-B04CA448038E}.Release|x64.Build.0 = Release|x64
+		{93049485-A056-4F0D-9ABF-4FB375044293}.Debug|x64.ActiveCfg = Debug|x64
+		{93049485-A056-4F0D-9ABF-4FB375044293}.Debug|x64.Build.0 = Debug|x64
+		{93049485-A056-4F0D-9ABF-4FB375044293}.Release|x64.ActiveCfg = Release|x64
+		{93049485-A056-4F0D-9ABF-4FB375044293}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA4E6089-23C5-47DD-9550-BA464C18B521}
+	EndGlobalSection
+EndGlobal

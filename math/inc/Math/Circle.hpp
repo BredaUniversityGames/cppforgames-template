@@ -16,7 +16,7 @@ struct Circle
     /// <summary>
     /// Get the diameter of the circle.
     /// </summary>
-    /// <returns></returns>
+    /// <returns>Double the radius.</returns>
     float diameter() const noexcept
     {
         return radius * 2.0f;

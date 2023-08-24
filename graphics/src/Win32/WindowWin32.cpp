@@ -14,6 +14,7 @@ extern "C"
 {
     /// <summary>
     /// Make sure OpenGL always uses the dedicated GPU when creating an OpenGL context.
+    /// See: https://docs.nvidia.com/gameworks/content/technologies/desktop/optimus.htm
     /// </summary>
     _declspec( dllexport ) DWORD NvOptimusEnablement = 0x00000001;
 }

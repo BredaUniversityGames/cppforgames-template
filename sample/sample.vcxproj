@@ -21,7 +21,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{ce1e1bd7-e965-4c3c-848f-9bff4e8022bf}</ProjectGuid>
-    <RootNamespace>game</RootNamespace>
+    <RootNamespace>sample</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>sample</ProjectName>
   </PropertyGroup>

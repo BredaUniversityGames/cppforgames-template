@@ -19,7 +19,7 @@ int main(int argc, char* argv[])
     constexpr int WINDOW_WIDTH = 800;
     constexpr int WINDOW_HEIGHT = 600;
 
-    Window window{ L"game", WINDOW_WIDTH, WINDOW_HEIGHT };
+    Window window{ L"C++ for Games", WINDOW_WIDTH, WINDOW_HEIGHT };
     Image  image{ WINDOW_WIDTH, WINDOW_HEIGHT };
 
     window.show();

@@ -5,6 +5,8 @@
 
 A super minimalistic C++ audio library built on [miniaudio](https://miniaud.io/index.html).
 
+> **Note**: This documentation is copied from the original GitHub repo: [github.com/jpvanoosten/Audio](https://github.com/jpvanoosten/Audio). Some of the files were removed for this distribution. Please refer to the original repo for the missing files.
+
 ## Features
 
 Should work on most platforms, but I've only tested it on Windows.
